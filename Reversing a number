@@ -1,0 +1,5 @@
+print(" reversing a number")
+d= int(input(" enter any number: "))
+d1 = str(d)
+for i in d1[::-1]:
+	print(i)
