@@ -1,0 +1,6 @@
+print(" prime factorization of any number.")
+u= int( input(" enter any number: "))
+for i in range(2,u):
+	while u%i==0:
+		print(i)
+		u=u/i
