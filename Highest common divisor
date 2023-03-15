@@ -1,0 +1,10 @@
+	
+print(" finding highest common divisor")
+a= int(input(" enter large no.: "))
+b= int( input(" enter small no.: "))
+print(" finding hcd of both the number ",a, "and ",b)
+if a%b==0:
+	print(b,"is a hcd")
+elif a%b!=0:
+	b=a%b
+print(b," is a hcd")
