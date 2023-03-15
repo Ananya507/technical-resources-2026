@@ -1,0 +1,11 @@
+marks=int(input("enter marks of student:"))
+if marks>90:
+    print("excellent")
+if marks<90 and marks>80:
+    print("good")
+if marks<80 and marks>70:
+    print("fair")
+if marks<70 and marks>60:
+    print("meets expecations")
+if marks<60:
+    print("below par")
