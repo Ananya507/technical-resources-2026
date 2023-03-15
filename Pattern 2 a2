@@ -1,0 +1,6 @@
+print(" pattern 2")
+n=int(input("enter any integer: "))
+str="*"
+for i in range(n,0,-1):
+	print( str*i)
+
