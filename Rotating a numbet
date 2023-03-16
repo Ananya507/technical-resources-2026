@@ -1,0 +1,9 @@
+print(" rotating a number.")
+n= int( input(" enter any number: "))
+k= int( input(" enter no.of times you want to rotate a number: "))
+string=str(n)
+l=len(string)
+if k >0:
+	print(string[-k::]+string[0:l-k])
+else:
+	print(string [-(k+l)::]+string[0:-k])
