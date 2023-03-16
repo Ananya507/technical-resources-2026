@@ -1,0 +1,9 @@
+b= int(input(" enter smaller number: "))
+a= int(input(" enter larger number: "))
+if a%b==0:
+	print(b," is a hcd")
+else:
+	while a%b!=0:
+		a,b= b,a%b
+	print(b," is a hcf")
+		
